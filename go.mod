@@ -28,8 +28,8 @@ require (
 	github.com/nanmu42/limitio v1.0.0
 	github.com/oklog/run v1.1.0
 	github.com/olekukonko/tablewriter v0.0.5
-	github.com/parquet-go/parquet-go v0.19.0
-	github.com/polarsignals/frostdb v0.0.0-20231019114304-92877c708395
+	github.com/parquet-go/parquet-go v0.20.0
+	github.com/polarsignals/frostdb v0.0.0-20240107184131-5e5bde74a391
 	github.com/prometheus/client_golang v1.17.0
 	github.com/prometheus/common v0.45.0
 	github.com/prometheus/prometheus v0.48.0
@@ -58,6 +58,8 @@ require (
 	gopkg.in/dnaeon/go-vcr.v3 v3.1.2
 	gopkg.in/yaml.v3 v3.0.1
 )
+
+require github.com/JohnCGriffin/overflow v0.0.0-20211019200055-46fa312c352c // indirect
 
 require (
 	cloud.google.com/go v0.110.10 // indirect
@@ -197,7 +199,7 @@ require (
 	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
-	github.com/polarsignals/wal v0.0.0-20230809151629-4d4e3eac6d40 // indirect
+	github.com/polarsignals/wal v0.0.0-20231123092250-5d233119cfc9 // indirect
 	github.com/prometheus/client_model v0.5.0 // indirect
 	github.com/prometheus/procfs v0.11.1 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
